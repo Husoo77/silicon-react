@@ -62,7 +62,7 @@ const FaqSection = () => {
                     <span className="icon">
                         <IoChatbubbleEllipses />
                     </span>
-                    <p>Still have questions?</p>
+                    <p>Don't like phone calls?</p>
                     <a href="#" className='flex items-center gap-5'>
                     <span>contact us</span>
                     <span className="icon">

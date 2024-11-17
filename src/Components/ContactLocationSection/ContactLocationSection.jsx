@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoTimeOutline } from "react-icons/io5";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { darkModeContext } from '../../provider/DarkModeProvider';
+import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 const MediaCenter = ({ title, address, phone, hours1, hours2 }) => {
 
@@ -19,7 +20,7 @@ const MediaCenter = ({ title, address, phone, hours1, hours2 }) => {
                 <p>{address}</p>
             </div>
             <div className="flex items-center gap-5 mb-10">
-                <span role="img" aria-label="phone"><FaPhoneAlt />
+                <span role="img" aria-label="phone"><MdOutlinePhoneInTalk />
                 </span>
                 <p>{phone}</p>
             </div>

@@ -6,6 +6,7 @@ import { LuUsers2 } from "react-icons/lu";
 import './contactBanner.css'
 import ConsultationForm from '../ConsultationForm/ConsultationForm';
 import { darkModeContext } from '../../provider/DarkModeProvider';
+import { AiOutlineUsergroupAdd } from "react-icons/ai";
 
 const ContactBanner = () => {
 
@@ -25,7 +26,8 @@ const ContactBanner = () => {
                   <ContactBox icon = {<FaRegEnvelope />} title="Email Us" description='Please feel free to drop us a line. We will respond as soon as possible.' actionText = 'Leave a message' />
                 </div>
 
-                <ContactBox icon = {<LuUsers2 />} title="Careers" description='Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.' actionText='Send an application' />
+                <ContactBox icon = {<AiOutlineUsergroupAdd />
+} title="Careers" description='Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.' actionText='Send an application' />
             </div>
 
             <div className='banner_right'>

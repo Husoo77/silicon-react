@@ -57,3 +57,7 @@
     opacity: 0;
     display: none;
 }
+
+#faq .accordion .open .light_dark_dark.icon{
+ background: var(--primary-color)!important;   
+}

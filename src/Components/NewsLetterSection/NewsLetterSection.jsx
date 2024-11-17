@@ -39,7 +39,7 @@ const NewsLetterSection = () => {
                 </div>
                 <input value={email} onChange={(e)=> setEmail(e.target.value)} type="email" placeholder="Your Email" />
             </div>
-            <input type="submit" defaultValue="Subscribe" />
+            <input type="submit" value="Subscribe" />
             </form>
         </div>
         </div>
